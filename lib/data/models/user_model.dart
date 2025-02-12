@@ -21,7 +21,7 @@ class UserModel extends User {
           sessionToken: sessionToken,
         );
 
-  /// **✅ Converte um `ParseUser` para `UserModel`**
+  // Converte um `ParseUser` para `UserModel`**
   factory UserModel.fromParseUser(ParseUser user) {
     return UserModel(
       id: user.objectId ?? '',
@@ -34,7 +34,7 @@ class UserModel extends User {
     );
   }
 
-  /// **🔄 Construtor para criar `UserModel` a partir de JSON**
+  // Construtor para criar `UserModel` a partir de JSON**
   factory UserModel.fromJson(Map<String, dynamic> json) {
     return UserModel(
       id: json['objectId'] as String,
@@ -47,7 +47,7 @@ class UserModel extends User {
     );
   }
 
-  /// **📝 Método para converter `UserModel` para JSON**
+  // Método para converter `UserModel` para JSON**
   Map<String, dynamic> toJson() {
     return {
       'objectId': id,

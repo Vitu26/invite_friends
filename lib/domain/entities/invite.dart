@@ -4,8 +4,8 @@ abstract class Invite {
   final String id;
   final String phone;
   final InviteStatus status;
-  final String invitedById; // ID do convidado
-  final String? invitedByName; // Nome do convidado (opcional)
+  final String invitedById;
+  final String? invitedByName;
   final DateTime createdAt;
 
   Invite({

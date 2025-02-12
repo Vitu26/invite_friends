@@ -99,10 +99,6 @@ class HomePage extends StatelessWidget {
                               invite.phone,
                               style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
                             ),
-                            subtitle: Text(
-                              'Status: ${invite.status.value}',
-                              style: TextStyle(fontSize: 14, color: Colors.grey[600]),
-                            ),
                           );
                         },
                       );

@@ -19,7 +19,7 @@ class InviteModel extends Invite {
           createdAt: createdAt,
         );
 
-  /// **🔄 Construtor para criar `InviteModel` a partir de JSON**
+  //Construtor para criar `InviteModel` a partir de JSON**
   factory InviteModel.fromJson(Map<String, dynamic> json) {
     final invitedByData = json['invitedBy'] as Map<String, dynamic>?;
 
@@ -33,7 +33,7 @@ class InviteModel extends Invite {
     );
   }
 
-  /// **📝 Método para converter `InviteModel` para JSON**
+  /// Método para converter `InviteModel` para JSON**
   Map<String, dynamic> toJson() {
     return {
       'objectId': id,
@@ -48,7 +48,7 @@ class InviteModel extends Invite {
     };
   }
 
-  /// **✅ Converte um `ParseObject` para `InviteModel`**
+  //Converte um `ParseObject` para `InviteModel`**
   factory InviteModel.fromParseObject(ParseObject parseObject) {
     return InviteModel(
       id: parseObject.objectId ?? '',
