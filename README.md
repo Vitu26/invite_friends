@@ -1,7 +1,7 @@
 #  Documentação do Projeto Invite Friends
 
 ##  Introdução
-O **Invite Friends** é um aplicativo Flutter projetado para gerenciar convites entre usuários. Ele utiliza **BLoC** para gerenciamento de estado, **Back4App (Parse Server)** como backend e segue a arquitetura **Clean Architecture**. O objetivo do projeto é fornecer uma interface fluida e organizada para que os usuários possam enviar e gerenciar convites de forma eficiente.
+O **Invite Friends** é um aplicativo Flutter projetado para gerenciar convites entre usuários. Ele utiliza **BLoC** para gerenciamento de estado, **Back4App (Parse Server)** como backend e segue a arquitetura **Clean Architecture**. O objetivo do projeto é fornecer uma interface fluida e organizada com design minimalista para que os usuários possam enviar e gerenciar convites de forma eficiente.
 
 ---
 
@@ -56,6 +56,10 @@ Para rodar o projeto em um emulador ou dispositivo físico, utilize o comando:
 flutter run
 ```
 Se estiver utilizando um emulador, certifique-se de que ele está aberto antes de executar o comando.
+
+Usuário de testes:
+  login: teste@gmail.com
+  senha: teste123
 
 ---
 
